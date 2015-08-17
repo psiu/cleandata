@@ -1,5 +1,5 @@
-# cleandata
-Coursera Getting and Cleaning Data coursework
+# Getting and Cleaning Data
+## Written for the Coursera Data Science Specialization Course
 
 Description of how the raw data was obtained:
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
