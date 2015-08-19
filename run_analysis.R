@@ -1,5 +1,5 @@
 library(data.table)
-library(plyr)
+library(dplyr)
 
 #############################
 ## Constants and controls
@@ -54,8 +54,7 @@ merged_data <- rbind(test_data, train_data)
 
 ##############################
 ## 2. Extracts only the measurements on the mean and standard deviation for each measurement. 
-
-
+merged_data <- merged_data[,grepl("Activity|Subject|mean|std", colnames(merged_data))]
 
 ##############################
 ## 3. Uses descriptive activity names to name the activities in the data set
@@ -73,3 +72,10 @@ merged_data <- rbind(test_data, train_data)
 
 ##############################
 ## 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+grp <- group_by(merged_data, Activity, Subject)
+tidy <- summarise_each(grp, funs(mean))
+
+##############################
+## Output the tidy data file as specified with write.table and row.names=FALSE
+
+write.table(tidy, "tidy.txt", row.names = FALSE)
