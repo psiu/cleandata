@@ -1,7 +1,7 @@
 # Getting and Cleaning Data
 ## Written for the Coursera Data Science Specialization Course
 
-One of the most exciting areas in all of data science right now is wearable computing. Companies like Fitbit, Nike, and Jawbone Up are racing to develop the most advanced algorithms to attract new users. The script in this repository will take the raw data collected from the accelerometers of the Samsung Galaxy S smartphone and transfer the data set into a clean "tidy" data set.
+One of the most exciting areas in all of data science right now is wearable computing. Companies like Fitbit, Nike, and Jawbone Up are racing to develop the most advanced algorithms to attract new users. The script in this repository will take the raw data collected from the accelerometers of the Samsung Galaxy S smartphone and transform the data set into a clean "tidy" data set.
 
 ### Description of how the raw data was obtained:
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
