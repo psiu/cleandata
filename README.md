@@ -6,6 +6,9 @@ One of the most exciting areas in all of data science right now is wearable comp
 #### Description of how the raw data was obtained:
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
+#### Video of the experiment demonstrating an example of the 6 recorded activities with one of the participants:
+http://www.youtube.com/watch?v=XOEN9W05_4A
+
 #### Raw data original source:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
