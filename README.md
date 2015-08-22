@@ -1,8 +1,6 @@
 # Getting and Cleaning Data
 ### Written for the Coursera Data Science Specialization Course
 
-<br>
-
 One of the most exciting areas in all of data science right now is wearable computing. Companies like Fitbit, Nike, and Jawbone Up are racing to develop the most advanced algorithms to attract new users. The script in this repository will take the raw data collected from the accelerometers of the Samsung Galaxy S smartphone and transform the data set into a clean "tidy" data set.
 
 #### Description of how the raw data was obtained:
@@ -16,7 +14,7 @@ https://github.com/psiu/cleandata/raw/master/getdata-projectfiles-UCI%20HAR%20Da
 
 <br>
 
-###The run_analysis.R script in this repository will perform the following
+####The run_analysis.R script in this repository will perform the following
 
 1. Merges the training and the test sets to create one data set
     + Uses descriptive activity names to name the activities in the data set
